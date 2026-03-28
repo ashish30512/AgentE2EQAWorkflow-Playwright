@@ -64,10 +64,15 @@ export default defineConfig({
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
+
+    {
+      name: 'chrome',
+      use: { 
+        ...devices['Desktop Chrome'], 
+        channel: 'chrome',
+        headless: false
+      },
+    },
   ],
 
   /* Run your local dev server before starting the tests */
