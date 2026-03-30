@@ -1,0 +1,115 @@
+
+Running 4 tests using 1 worker
+
+[1A[2K[1/4] [chromium] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123
+[1A[2K  1) [chromium] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ────────────────────
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /home/codespace/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-R84euu --remote-debugging-pipe --no-startup-window
+    <launched> pid=5677
+    [pid=5677][err] /home/codespace/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+    Call log:
+    [2m  - <launching> /home/codespace/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-R84euu --remote-debugging-pipe --no-startup-window[22m
+    [2m  - <launched> pid=5677[22m
+    [2m  - [pid=5677][err] /home/codespace/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory[22m
+    [2m  - [pid=5677] <gracefully close start>[22m
+    [2m  - [pid=5677] <kill>[22m
+    [2m  - [pid=5677] <will force kill>[22m
+    [2m  - [pid=5677] exception while trying to kill process: Error: kill ESRCH[22m
+    [2m  - [pid=5677] <process did exit: exitCode=127, signal=null>[22m
+    [2m  - [pid=5677] starting temporary directories cleanup[22m
+    [2m  - [pid=5677] finished temporary directories cleanup[22m
+    [2m  - [pid=5677] <gracefully close end>[22m
+
+
+
+[1A[2K[2/4] [firefox] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123
+[1A[2K  2) [firefox] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ─────────────────────
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     sudo npx playwright install-deps                 ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     sudo apt-get install libxcursor1\                ║
+    ║         libgtk-3-0t64\                               ║
+    ║         libcairo-gobject2\                           ║
+    ║         libgdk-pixbuf-2.0-0\                         ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+
+
+[1A[2K[3/4] [webkit] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123
+[1A[2K  3) [webkit] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ──────────────────────
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Missing libraries:                                   ║
+    ║     libgtk-4.so.1                                    ║
+    ║     libgdk_pixbuf-2.0.so.0                           ║
+    ║     libcairo-gobject.so.2                            ║
+    ║     libvulkan.so.1                                   ║
+    ║     libgraphene-1.0.so.0                             ║
+    ║     liblcms2.so.2                                    ║
+    ║     libopus.so.0                                     ║
+    ║     libgstallocators-1.0.so.0                        ║
+    ║     libgstapp-1.0.so.0                               ║
+    ║     libgstpbutils-1.0.so.0                           ║
+    ║     libgstaudio-1.0.so.0                             ║
+    ║     libgsttag-1.0.so.0                               ║
+    ║     libgstvideo-1.0.so.0                             ║
+    ║     libgstgl-1.0.so.0                                ║
+    ║     libgstcodecparsers-1.0.so.0                      ║
+    ║     libgstfft-1.0.so.0                               ║
+    ║     libflite.so.1                                    ║
+    ║     libflite_usenglish.so.1                          ║
+    ║     libflite_cmu_grapheme_lang.so.1                  ║
+    ║     libflite_cmu_grapheme_lex.so.1                   ║
+    ║     libflite_cmu_indic_lang.so.1                     ║
+    ║     libflite_cmu_indic_lex.so.1                      ║
+    ║     libflite_cmulex.so.1                             ║
+    ║     libflite_cmu_time_awb.so.1                       ║
+    ║     libflite_cmu_us_awb.so.1                         ║
+    ║     libflite_cmu_us_kal16.so.1                       ║
+    ║     libflite_cmu_us_kal.so.1                         ║
+    ║     libflite_cmu_us_rms.so.1                         ║
+    ║     libflite_cmu_us_slt.so.1                         ║
+    ║     libwebpdemux.so.2                                ║
+    ║     libavif.so.16                                    ║
+    ║     libharfbuzz-icu.so.0                             ║
+    ║     libepoxy.so.0                                    ║
+    ║     libwebpmux.so.3                                  ║
+    ║     libwayland-server.so.0                           ║
+    ║     libwayland-egl.so.1                              ║
+    ║     libwayland-client.so.0                           ║
+    ║     libmanette-0.2.so.0                              ║
+    ║     libenchant-2.so.2                                ║
+    ║     libhyphen.so.0                                   ║
+    ║     libwoff2dec.so.1.0.2                             ║
+    ║     libGLESv2.so.2                                   ║
+    ║     libx264.so                                       ║
+    ╚══════════════════════════════════════════════════════╝
+
+
+[1A[2K[4/4] [chrome] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123
+[1A[2K  4) [chrome] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ──────────────────────
+
+    Error: browserType.launch: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+    Run "npx playwright install chrome"
+
+
+[1A[2K  4 failed
+    [chromium] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ─────────────────────
+    [firefox] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ──────────────────────
+    [webkit] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ───────────────────────
+    [chrome] › tests/login-test.spec.ts:3:5 › Login with credentials 123/123 ───────────────────────
+
+[36m  Serving HTML report at http://localhost:9323. Press Ctrl+C to quit.[39m
