@@ -8,7 +8,7 @@ const TEST_PASSWORD = 'secret_sauce';
 // End-to-End: Complete happy path checkout workflow
 test.describe('E2E: Complete Checkout Workflow', () => {
   let page: Page;
-
+//Ashish frtom Jupilent
   test.beforeEach(async ({ page: testPage }) => {
     page = testPage;
     await page.setViewportSize({ width: 1920, height: 1080 });
