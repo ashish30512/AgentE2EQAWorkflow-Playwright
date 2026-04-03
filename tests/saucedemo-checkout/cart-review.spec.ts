@@ -8,7 +8,7 @@ const TEST_PASSWORD = 'secret_sauce';
 // AC1: Cart Review - Verifying cart items, totals, and navigation options
 test.describe('AC1: Cart Review', () => {
   let page: Page;
-
+//System.out.println("Hello from branch1") Ashish;
   test.beforeEach(async ({ page: testPage }) => {
     page = testPage;
     // Maximize browser window for consistent testing
