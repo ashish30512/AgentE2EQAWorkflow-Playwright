@@ -4,7 +4,11 @@ import { SauceDemoPages } from './pages';
 const APP_URL = 'https://www.saucedemo.com';
 const TEST_USERNAME = 'standard_user';
 const TEST_PASSWORD = 'secret_sauce';
+<<<<<<< HEAD
 //Ashish git test 123againb
+=======
+//Ashish git test julbline conflit
+>>>>>>> d75a3a4 (Update checkout end-to-end test)
 // End-to-End: Complete happy path checkout workflow
 test.describe('E2E: Complete Checkout Workflow', () => {
   let page: Page;
