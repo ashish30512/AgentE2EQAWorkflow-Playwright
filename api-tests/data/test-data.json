@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "valid_credentials": {
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka"
+    },
+    "invalid_credentials": {
+      "email": "test@example.com",
+      "password": "wrongpassword"
+    }
+  },
+  "protected_resource": {
+    "user_id": 2,
+    "expected_email": "janet.weaver@reqres.in"
+  }
+}
