@@ -73,6 +73,12 @@ export default defineConfig({
         headless: false
       },
     },
+
+    {
+      name: 'api',
+      testDir: './api-tests',
+      use: {},
+    },
   ],
 
   /* Run your local dev server before starting the tests */
